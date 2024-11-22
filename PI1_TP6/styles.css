@@ -1,0 +1,102 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#contenedor-principal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+}
+
+
+#formulario-tareas {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formulario-tareas input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#formulario-tareas button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#formulario-tareas button:hover {
+    background-color: #45a049;
+}
+
+
+#lista-tareas-contenedor {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+#lista-tareas {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#lista-tareas li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+#lista-tareas li:hover {
+    background-color: #c8e6c9;
+}
+
+#lista-tareas li button {
+    border: none;
+    background-color: transparent;
+    color: #333;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#lista-tareas li button:hover {
+    color: red;
+}
